@@ -1482,23 +1482,24 @@
 			display: block;
 			width: 100%;
 		}
-
+/*
     .language-name {
-      display: none;
-      position:absolute;
+      visibility: hidden;
+      position: relative;
+      top: -100px;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      z-index: 2;
     }
 
-    .language-name:hover {
-      p {}
-      display: initial;
-      color: black;
-      position: absolute;
-      font-size: 81px;
-      top: 85px;
-      left: 30px;
-      font-weight: 700;
-      z-index: 1;
-    }
+    .language:hover {
+      visibility: hidden;
+
+      p {
+        visibility: visible;
+      }
+    }*/
 
 		.image.left {
 			float: left;
